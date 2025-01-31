@@ -1,0 +1,45 @@
+# Job Search Configuration
+search:
+  keywords: "Python Developer"
+  location: "New York"
+  experience_level: "Entry Level"
+  job_type: "Full-time"
+  date_posted: "past_week"
+
+# Application Settings
+application:
+  apply_active: false  # Set to True to enable auto-apply
+  max_applications_per_day: 50
+  resume_path: "resumes/resume.pdf"
+  cover_letter_path: "resumes/cover_letter.pdf"
+
+# Platform Settings
+platforms:
+  linkedin:
+    enabled: true
+    search_limit: 100
+  indeed:
+    enabled: true
+    search_limit: 100
+  glassdoor:
+    enabled: true
+    search_limit: 100
+
+# Browser Settings
+browser:
+  headless: false
+  user_agent_rotation: true
+  proxy_enabled: false
+
+# Timing Settings
+delays:
+  min_delay: 2  # seconds
+  max_delay: 5  # seconds
+  page_load_timeout: 30  # seconds
+
+# Logging Settings
+logging:
+  level: "INFO"
+  file_path: "logs/autojobfinder.log"
+  max_file_size: 10  # MB
+  backup_count: 5 
