@@ -105,4 +105,9 @@ build/
 
 # Misc
 .DS_Store
-Thumbs.db 
+Thumbs.db
+
+# Project specific
+jobs_linkedin_*.csv
+chromedriver*
+debug.log 
